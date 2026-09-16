@@ -1,0 +1,18 @@
+import "./Header.css";
+
+//header will have a home, products, about, and contacts section may be made buttons in the future
+function Header({storeName}) {
+    return (
+        <header className="header">
+            <h1>{storeName}</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+    );
+}
+
+export default Header;
